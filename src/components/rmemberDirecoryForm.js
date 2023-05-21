@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
 import { db, storage } from '../config/firebase';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-// import '../components/memberForm.css'
+import '../components/memberForm.css'
 
 const MemberForm = () => {
   const [name, setName] = useState('');
